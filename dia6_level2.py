@@ -1,7 +1,7 @@
 #Level 2
 #1
 Miembros_de_la_familia = ["Edgar", "Juan", "Manuel", "Isaid", "Lizbeth", "Leslie", "Montserrat", "Dayana", "Jose Manuel", "Veronica"]
-Siblings = ["Edgar", "Juan", "Manuel", "Isaid", "Lizbeth", "Leslie", "Montserrat", "Dayana"]
+Siblings = Miembros_de_la_familia[:-2]
 
 Padres = Miembros_de_la_familia[-2:]
 print("Padres: ",Padres)

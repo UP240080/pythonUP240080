@@ -50,6 +50,7 @@ name = input("Escribe un nombre de variable: ")
 print(is_valid_variable(name))
 
 #5
+#5.1
 import keyword
 from countries_data import paises
 from collections import Counter
@@ -61,7 +62,7 @@ def most_popular_languages(dict):
 print("Los 10 idiomas más populares son:")
 print(most_popular_languages(paises))
 
-#6
+#5.2
 def most_populated_countries(dict):
     most_populated=[]
     top10_countries = sorted(dict, key=lambda x: x["population"], reverse=True)[:10]
